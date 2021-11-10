@@ -1,0 +1,20 @@
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding-right: 16px;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #ff3333;
+}
