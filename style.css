@@ -167,6 +167,7 @@ header{
 	background-image: url("a.jpg");
 	background-repeat: no-repeat;
 }
+
 .rig-overlay{
 	position: absolute;
 	display: block;
@@ -179,4 +180,19 @@ header{
 }
 #rig li:hover .rig-overlay{
 	opacity: 0.5;
+}
+
+.footer{
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    line-height: 50px;
+    background: #333;
+    color: #fff;
+    position: absolute;
+    bottom: -100px;
+}
+#container{
+    min-height: 100%;
+    position: relative;
 }
