@@ -114,8 +114,6 @@ header {
   line-height: 50px;
   background: #333;
   color: #fff;
-  position: absolute;
-  bottom: -100px;
 }
 #container {
   min-height: 100%;
