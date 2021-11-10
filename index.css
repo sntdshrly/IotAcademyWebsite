@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 /* Global */
-
 #content {
-  padding: 30px 10%;
+  padding: 30px 50px;
+}
+body {
+  max-width: 100%;
 }
 .footer {
   width: 100%;
@@ -13,17 +15,27 @@
   background: #333;
   color: #fff;
 }
+@media screen and (max-width: 768px) {
+  header,
+  .nav__links,
+  .container-post {
+    flex-direction: column;
+  }
+
+  .nav__links li {
+    margin-top: 10px;
+  }
+}
 
 /* Post  */
-/* Post */
 .container-post {
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 0px;
+  justify-content: center;
+  margin: 20px 0px;
+  display: flex;
 }
 
 .post {
+  margin: 10px;
   height: 300px;
   width: 300px;
   padding: 1.5rem;
@@ -103,10 +115,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 10%;
+  padding: 30px 50px;
+  background-color: white;
 }
 
 .nav__links {
+  display: flex;
   list-style: none;
 }
 
@@ -126,6 +140,7 @@ header {
   width: 100%;
   max-height: 500px;
   overflow: hidden;
+  background-color: #0088a9;
 }
 
 #banner img {
