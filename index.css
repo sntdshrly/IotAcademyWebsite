@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
-@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
 
 /* Global */
 #content {
@@ -151,10 +150,12 @@ header {
 /* Floating */
 #float-icon {
   background-color: #70e000;
-  width: 5em;
-  height: 5em;
+  width: fit-content;
+  height: fit-content;
   border-radius: 5em;
-  position: absolute;
-  bottom: 5px;
-  right: 5px;
+  padding: 1em;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 2px 2px 3px #999;
 }
