@@ -21,10 +21,10 @@
     </header>
     <div id="container">
       <div id="banner">
-        <img class="mySlides" src="banner1.png"/>
-        <img class="mySlides" src="banner2.png"/>
-        <img class="mySlides" src="banner3.png"/>
-        <img class="mySlides" src="banner4.png"/>
+        <img class="mySlides" src="banner1.png" />
+        <img class="mySlides" src="banner2.png" />
+        <img class="mySlides" src="banner3.png" />
+        <img class="mySlides" src="banner4.png" />
       </div>
       <div id="content">
         <div>
@@ -111,7 +111,7 @@
     </div>
     <div class="footer">Copyright by</div>
     <script>
-    var slideIndex = 0;
+      var slideIndex = 0;
       carousel();
       function carousel() {
         var i;
@@ -120,8 +120,10 @@
           x[i].style.display = "none";
         }
         slideIndex++;
-        if (slideIndex > x.length) {slideIndex = 1}
-        x[slideIndex-1].style.display = "block";
+        if (slideIndex > x.length) {
+          slideIndex = 1;
+        }
+        x[slideIndex - 1].style.display = "block";
         setTimeout(carousel, 2000); // Change image every 2 seconds
       }
     </script>
