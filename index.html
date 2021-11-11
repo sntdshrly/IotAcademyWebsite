@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
   <body>
     <header>
-      <img class="" src="logo.png" alt="" width=230px height="80px" />
+      <img class="" src="logo.png" alt="" width="230px" height="80px" />
       <nav>
         <ul class="nav__links">
           <li><a href="index.html">Home</a></li>
@@ -19,13 +19,15 @@
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
-      
+      <div>
+        <form class="example" action="/action_page.php" style="margin: auto; max-width: 300px">
+          <input type="text" placeholder="Search.." name="search2" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
     </header>
+
     <div id="container">
-      <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
-        <input type="text" placeholder="Search.." name="search2">
-        <button type="submit"><i class="fa fa-search"></i></button>
-      </form>
       <div id="banner">
         <img class="mySlides" src="banner1.png" />
         <img class="mySlides" src="banner2.png" />
@@ -34,7 +36,7 @@
       </div>
       <div id="content">
         <div>
-          <img src="latest_blogs.png" width=160px height="25px"/>
+          <img src="latest_blogs.png" width="160px" height="25px" />
           <div class="container-post">
             <a href="">
               <div class="post">
@@ -69,7 +71,7 @@
           </div>
         </div>
         <div>
-          <img src="latest_events.png" width=170px height="25px"/>
+          <img src="latest_events.png" width="170px" height="25px" />
           <div class="container-post">
             <a href="">
               <div class="post">
@@ -104,7 +106,7 @@
           </div>
         </div>
         <div>
-          <img src="about_us.png" width=120px height="25px"/>
+          <img src="about_us.png" width="120px" height="25px" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, corporis blanditiis. Omnis eum hic quisquam accusamus incidunt, rerum voluptas repudiandae necessitatibus ullam cumque neque at consequatur aliquid velit!
             Nihil, consectetur?
@@ -114,7 +116,7 @@
     </div>
     <div id="float-icon">
       <a href="">
-        <i class="fas fa-envelope fa-2x"></i>
+        <i class="fa fa-envelope fa-2x"></i>
       </a>
     </div>
     <div class="footer">© Copyright 2021 IOT Academy. All rights reserved</div>
