@@ -20,7 +20,11 @@ header {
   height: 50px;
   padding-left: 1020px;
   line-height: 50px;
+<<<<<<< HEAD
   background:maroon;
+=======
+  background: black;
+>>>>>>> dcdc15f33ef1807ffdf636f9598ecbcfeaf5b13d
   color: #fff;
 }
 @media screen and (max-width: 768px) {
@@ -160,12 +164,11 @@ a {
   box-shadow: 2px 2px 3px #999;
 }
 
-
 * {
   box-sizing: border-box;
 }
 
-form.example input[type=text] {
+form.example input[type="text"] {
   margin-bottom: 20px;
   margin-top: 20px;
   padding: 10px;
@@ -180,7 +183,7 @@ form.example button {
   width: 20%;
   margin-top: 20px;
   padding: 10px;
-  background: #2196F3;
+  background: #2196f3;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
