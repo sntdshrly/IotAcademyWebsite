@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
-  background-color:maroon;
+  background-color: black;
 }
 
 .footer {
@@ -20,11 +20,7 @@ header {
   height: 50px;
   padding-left: 1020px;
   line-height: 50px;
-<<<<<<< HEAD
-  background:maroon;
-=======
   background: black;
->>>>>>> dcdc15f33ef1807ffdf636f9598ecbcfeaf5b13d
   color: #fff;
 }
 @media screen and (max-width: 768px) {
