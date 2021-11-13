@@ -1,0 +1,16 @@
+#banner {
+  height: 400px;
+}
+
+#title {
+  width: 75%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#content {
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
